@@ -636,39 +636,96 @@ a:hover { text-decoration: underline; text-underline-offset: 4px; text-decoratio
     </div>
   </nav>
 
-  <!-- ===== HERO VARIANT 1: Stamp-led ===== -->
-  <section class="hero hero-variant active" data-variant="stamp">
-    <div class="nfa-container hero-grid">
-      <div>
-        <div class="hero-eyebrow-row">
-          <span class="nfa-rule"></span>
-          <span class="nfa-eyebrow">The Authority on Flooring in Nevada</span>
+  <!-- ===== HERO: Directory-led ===== -->
+  <section class="hero-v3" data-variant="directory">
+    <div class="nfa-container">
+      <div class="hero-v3-top">
+        <div>
+          <div class="hero-eyebrow-row">
+            <span class="nfa-rule" style="background: var(--nfa-ochre-deep);"></span>
+            <span class="nfa-eyebrow">Vetted. Visited. Verified.</span>
+          </div>
+          <h1 class="nfa-display" style="font-size: clamp(40px, 4.5vw, 64px);">Find a flooring company<br>that earned its stamp.</h1>
         </div>
-        <h1 class="nfa-display">A floor<br>worth standing<br>behind.</h1>
-        <p class="hero-lede">The Nevada Flooring Association vets, endorses, and advocates for the contractors and showrooms doing right by Nevada homeowners — held to a standard of ethics, skill, and craft.</p>
-        <div class="hero-actions">
-          <a href="directory.html" class="nfa-btn nfa-btn-primary nfa-btn-arrow">Find an approved member</a>
-          <a href="stamp.html" class="nfa-btn nfa-btn-text">What our stamp means →</a>
-        </div>
-        <div class="hero-stats">
-          <div class="nfa-stat">
-            <span class="nfa-stat-num">142</span>
-            <span class="nfa-stat-label">Approved Members</span>
-          </div>
-          <div class="nfa-stat">
-            <span class="nfa-stat-num">7</span>
-            <span class="nfa-stat-label">Years Active</span>
-          </div>
-          <div class="nfa-stat">
-            <span class="nfa-stat-num">38</span>
-            <span class="nfa-stat-label">Counties Served</span>
-          </div>
+        <div>
+          <p style="color: var(--nfa-charcoal); font-size: 16px; max-width: 380px;">Every member listed here has passed a site visit and meets our standards for licensing, insurance, safety, and operational quality.</p>
         </div>
       </div>
-      <div class="hero-photo">
-        <span class="photo-credit">Sierra Hardwood Co. · Carson Valley install</span>
-        <img src="assets/img/hero-hardwood-install.jpg" alt="Wide-plank hardwood floor installation">
-        <div class="seal-badge"><img src="assets/img/nfa-seal-badge.svg" alt="NFA Approved"></div>
+
+      <form class="hero-v3-search" onsubmit="event.preventDefault(); window.location='directory.html';">
+        <select>
+          <option>All services</option>
+          <option>Hardwood</option>
+          <option>Tile &amp; Stone</option>
+          <option>Carpet</option>
+          <option>LVP / LVT</option>
+          <option>Concrete</option>
+          <option>Commercial</option>
+        </select>
+        <input type="text" placeholder="ZIP code or city — e.g. Carson City, Reno, Minden...">
+        <button type="submit" class="nfa-btn nfa-btn-primary">Search directory</button>
+      </form>
+      <div class="hero-v3-quick">
+        <span style="font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--nfa-charcoal); padding: 6px 0; margin-right: 4px;">Popular →</span>
+        <a href="directory.html">Hardwood refinishing</a>
+        <a href="directory.html">Tile installers</a>
+        <a href="directory.html">Commercial flooring</a>
+        <a href="directory.html">Reno area</a>
+        <a href="directory.html">Carson Valley</a>
+      </div>
+
+      <div style="margin-top: 56px;">
+        <div style="display: flex; align-items: end; justify-content: space-between; margin-bottom: 20px;">
+          <span class="nfa-eyebrow navy">Featured this month</span>
+          <a href="directory.html" class="nfa-btn nfa-btn-text">View all 142 members →</a>
+        </div>
+        <div class="hero-v3-feature">
+          <article class="member-card">
+            <div class="member-card-head">
+              <div>
+                <div class="member-name">Sierra Hardwood Co.</div>
+                <div class="member-meta-row" style="font-size: 12px; color: var(--nfa-charcoal); margin-top: 4px; letter-spacing: 0.06em; text-transform: uppercase;">Carson City · Member since 2019</div>
+              </div>
+              <img class="member-stamp" src="assets/img/nfa-seal-badge.svg" alt="NFA Approved Member">
+            </div>
+            <p style="font-size: 14px; color: var(--nfa-charcoal); margin: 0; line-height: 1.55;">Family-run hardwood refinishers serving the Carson Valley. Specializes in reclaimed and wide-plank installs.</p>
+            <div class="member-tags">
+              <span class="member-tag">Hardwood</span>
+              <span class="member-tag">Refinishing</span>
+              <span class="member-tag">Residential</span>
+            </div>
+          </article>
+          <article class="member-card">
+            <div class="member-card-head">
+              <div>
+                <div class="member-name">High Desert Tile &amp; Stone</div>
+                <div class="member-meta-row" style="font-size: 12px; color: var(--nfa-charcoal); margin-top: 4px; letter-spacing: 0.06em; text-transform: uppercase;">Reno · Member since 2020</div>
+              </div>
+              <img class="member-stamp" src="assets/img/nfa-seal-badge.svg" alt="NFA Approved Member">
+            </div>
+            <p style="font-size: 14px; color: var(--nfa-charcoal); margin: 0; line-height: 1.55;">Showroom and install crew known for large-format porcelain and natural stone. Commercial &amp; residential.</p>
+            <div class="member-tags">
+              <span class="member-tag">Tile</span>
+              <span class="member-tag">Stone</span>
+              <span class="member-tag">Commercial</span>
+            </div>
+          </article>
+          <article class="member-card">
+            <div class="member-card-head">
+              <div>
+                <div class="member-name">Truckee Meadows Flooring</div>
+                <div class="member-meta-row" style="font-size: 12px; color: var(--nfa-charcoal); margin-top: 4px; letter-spacing: 0.06em; text-transform: uppercase;">Sparks · Member since 2018</div>
+              </div>
+              <img class="member-stamp" src="assets/img/nfa-seal-badge.svg" alt="NFA Approved Member">
+            </div>
+            <p style="font-size: 14px; color: var(--nfa-charcoal); margin: 0; line-height: 1.55;">Full-service showroom carrying carpet, LVP, and engineered hardwood. Founding member.</p>
+            <div class="member-tags">
+              <span class="member-tag">Carpet</span>
+              <span class="member-tag">LVP</span>
+              <span class="member-tag">Showroom</span>
+            </div>
+          </article>
+        </div>
       </div>
     </div>
   </section>
