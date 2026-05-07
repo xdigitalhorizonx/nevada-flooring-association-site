@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 300" width="320" height="300" preserveAspectRatio="xMidYMid meet" fill="none">
+  <path d="M 24 24 L 236 24 L 236 138 L 220 138 L 220 188 L 192 188 L 192 214 L 168 214 L 168 234 L 142 234 L 142 256 L 116 256 L 104 276 L 24 64 Z" stroke="currentColor" stroke-width="3.5" stroke-linejoin="miter" stroke-linecap="square" fill="none"></path>
+  <text x="156" y="146" text-anchor="middle" font-family="&#39;Helvetica Neue&#39;, &#39;Arial Black&#39;, sans-serif" font-weight="900" font-size="44" letter-spacing="1.5" fill="currentColor">NEVADA</text>
+  <text x="156" y="178" text-anchor="middle" font-family="&#39;Helvetica Neue&#39;, Arial, sans-serif" font-weight="700" font-size="26" letter-spacing="5" fill="currentColor">FLOORING</text>
+  <line x1="60" y1="198" x2="108" y2="198" stroke="currentColor" stroke-width="2"></line>
+  <line x1="204" y1="198" x2="252" y2="198" stroke="currentColor" stroke-width="2"></line>
+  <text x="156" y="202" text-anchor="middle" font-family="&#39;Helvetica Neue&#39;, Arial, sans-serif" font-weight="600" font-size="11" letter-spacing="3.5" fill="currentColor">ASSOCIATION</text>
+</svg>

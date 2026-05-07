@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 700" width="620" height="700" preserveAspectRatio="xMidYMid meet" fill="none">
+  
+  <path d="&#xA;    M 95 70&#xA;    L 500 70&#xA;    L 500 90&#xA;    L 520 90&#xA;    L 520 470&#xA;    L 380 640&#xA;    L 200 220&#xA;    L 215 220&#xA;    L 215 200&#xA;    L 192 200&#xA;    L 178 165&#xA;    Z&#xA;  " stroke="#1B355F" stroke-width="5.5" stroke-linejoin="miter" stroke-linecap="square" fill="none"></path>
+
+  <text x="307" y="280" text-anchor="middle" font-family="&#39;Helvetica Neue&#39;, &#39;Arial Black&#39;, Impact, sans-serif" font-weight="900" font-size="80" letter-spacing="2" fill="#1B355F">NEVADA</text>
+
+  <text x="307" y="342" text-anchor="middle" font-family="&#39;Helvetica Neue&#39;, Arial, sans-serif" font-weight="700" font-size="50" letter-spacing="3" fill="#5A5F66">FLOORING</text>
+
+  <line x1="150" y1="380" x2="220" y2="380" stroke="#1B355F" stroke-width="2.5"></line>
+  <line x1="394" y1="380" x2="464" y2="380" stroke="#1B355F" stroke-width="2.5"></line>
+  <text x="307" y="387" text-anchor="middle" font-family="&#39;Helvetica Neue&#39;, Arial, sans-serif" font-weight="600" font-size="21" letter-spacing="6.5" fill="#1B355F">ASSOCIATION</text>
+</svg>
